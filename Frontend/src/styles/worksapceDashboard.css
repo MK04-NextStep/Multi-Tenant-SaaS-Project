@@ -1,0 +1,124 @@
+.dashboard-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f4f6fc 0%, #e9ecf7 100%);
+  padding: 24px 20px 48px;
+}
+.dashboard-shell {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.dashboard-panel {
+  background: white;
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 12px 40px rgba(15, 23, 42, 0.06);
+  margin-bottom: 10px;
+}
+.dashboard-workspace-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+h1{
+    margin: 0;
+    font-size: 28px;
+    color: #111827;   
+}
+.dashboard-chip {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #5b21b6;
+  background: #ede9fe;
+  padding: 5px 10px;
+  border-radius: 999px;
+}
+.dashboard-workspace-btn-new{
+    border: none;
+    padding: 12px 16px;
+    border-radius: 10px;
+    background-color: #5b21b6;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+  gap: 20px;
+  align-items: start;
+}
+.team-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.dashboard-panel {
+  background: white;
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 12px 40px rgba(15, 23, 42, 0.06);
+}
+.dashboard-heading {
+  margin: 0 0 6px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+}
+.dashboard-hint {
+  margin: 0 0 16px;
+  font-size: 13px;
+  color: #6b7280;
+  line-height: 1.45;
+}
+.team-gap{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.dashboard-workspace-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 12px 14px;
+  background: #fafbff;
+}
+.dashboard-workspace-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.team-name{
+    font-weight: 700;
+    color: #111827;
+}
+.team-show-btn{
+    border: none;
+    background-color: #eef2ff;
+    color: #4338ca;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.invite-button{
+    width: 100%;
+    border: none;
+    background-color: #5b21b6;
+    color: white;
+    padding: 14px;
+    border-radius: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.change-role{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    background-color: white;
+    font-weight: 600;
+}
